@@ -37,20 +37,23 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB4-1r-Ahf">
-                                            <rect key="frame" x="72" y="56" width="36" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB4-1r-Ahf">
+                                            <rect key="frame" x="72" y="49" width="36" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="UB4-1r-Ahf" secondAttribute="bottom" constant="20" symbolic="YES" id="FwM-V6-Kiu"/>
+                                        <constraint firstItem="UB4-1r-Ahf" firstAttribute="top" secondItem="Oms-zP-Liv" secondAttribute="bottom" constant="8" symbolic="YES" id="IGU-Ll-FvL"/>
                                         <constraint firstItem="Oms-zP-Liv" firstAttribute="leading" secondItem="quw-iD-Vqu" secondAttribute="trailing" constant="8" symbolic="YES" id="N4b-fl-Uck"/>
                                         <constraint firstItem="quw-iD-Vqu" firstAttribute="leading" secondItem="onG-sJ-wr9" secondAttribute="leading" constant="20" symbolic="YES" id="R5s-ui-vmo"/>
                                         <constraint firstItem="Oms-zP-Liv" firstAttribute="top" secondItem="onG-sJ-wr9" secondAttribute="top" constant="20" symbolic="YES" id="TIO-6u-shs"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Oms-zP-Liv" secondAttribute="trailing" constant="20" symbolic="YES" id="joN-tF-Fpj"/>
+                                        <constraint firstItem="UB4-1r-Ahf" firstAttribute="leading" secondItem="Oms-zP-Liv" secondAttribute="leading" id="mOG-Nl-584"/>
                                         <constraint firstItem="quw-iD-Vqu" firstAttribute="centerY" secondItem="onG-sJ-wr9" secondAttribute="centerY" id="oDU-VU-WUr"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UB4-1r-Ahf" secondAttribute="trailing" constant="20" symbolic="YES" id="wRX-Qn-uCd"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
