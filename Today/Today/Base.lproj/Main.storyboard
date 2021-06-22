@@ -31,9 +31,8 @@
                                             </constraints>
                                             <state key="normal" backgroundImage="circle" catalog="system"/>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Titel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oms-zP-Liv">
-                                            <rect key="frame" x="72" y="27" width="33" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oms-zP-Liv">
+                                            <rect key="frame" x="72" y="20" width="33" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -47,7 +46,10 @@
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="Oms-zP-Liv" firstAttribute="leading" secondItem="quw-iD-Vqu" secondAttribute="trailing" constant="8" symbolic="YES" id="N4b-fl-Uck"/>
                                         <constraint firstItem="quw-iD-Vqu" firstAttribute="leading" secondItem="onG-sJ-wr9" secondAttribute="leading" constant="20" symbolic="YES" id="R5s-ui-vmo"/>
+                                        <constraint firstItem="Oms-zP-Liv" firstAttribute="top" secondItem="onG-sJ-wr9" secondAttribute="top" constant="20" symbolic="YES" id="TIO-6u-shs"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Oms-zP-Liv" secondAttribute="trailing" constant="20" symbolic="YES" id="joN-tF-Fpj"/>
                                         <constraint firstItem="quw-iD-Vqu" firstAttribute="centerY" secondItem="onG-sJ-wr9" secondAttribute="centerY" id="oDU-VU-WUr"/>
                                     </constraints>
                                 </tableViewCellContentView>
