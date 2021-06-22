@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="99" id="ez4-Vj-VCR">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReminderListCell" rowHeight="99" id="ez4-Vj-VCR" customClass="ReminderListCell" customModule="Today" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="99"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ez4-Vj-VCR" id="onG-sJ-wr9">
@@ -56,6 +56,11 @@
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UB4-1r-Ahf" secondAttribute="trailing" constant="20" symbolic="YES" id="wRX-Qn-uCd"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dateLabel" destination="UB4-1r-Ahf" id="FeW-lH-hcy"/>
+                                    <outlet property="doneButton" destination="quw-iD-Vqu" id="ZSv-10-igZ"/>
+                                    <outlet property="titleLabel" destination="Oms-zP-Liv" id="cYc-cE-pNc"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -66,7 +71,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQu-Dq-V6l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-172" y="78"/>
+            <point key="canvasLocation" x="-172.46376811594203" y="77.678571428571431"/>
         </scene>
     </scenes>
     <resources>

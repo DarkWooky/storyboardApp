@@ -14,6 +14,7 @@
 		F4712A9626824EE500D6730B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4712A9526824EE500D6730B /* Assets.xcassets */; };
 		F4712A9926824EE500D6730B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4712A9726824EE500D6730B /* LaunchScreen.storyboard */; };
 		F4712AA3268250B400D6730B /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4712AA2268250B400D6730B /* Reminder.swift */; };
+		F4712AA52682A9E200D6730B /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4712AA42682A9E200D6730B /* ReminderListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F4712A9826824EE500D6730B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4712A9A26824EE500D6730B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4712AA2268250B400D6730B /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		F4712AA42682A9E200D6730B /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				F4712A8C26824EE300D6730B /* AppDelegate.swift */,
 				F4712A8E26824EE300D6730B /* SceneDelegate.swift */,
 				F4712AA2268250B400D6730B /* Reminder.swift */,
+				F4712AA42682A9E200D6730B /* ReminderListCell.swift */,
 				F4712A9026824EE300D6730B /* ViewController.swift */,
 				F4712A9226824EE300D6730B /* Main.storyboard */,
 				F4712A9526824EE500D6730B /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4712A9126824EE300D6730B /* ViewController.swift in Sources */,
+				F4712AA52682A9E200D6730B /* ReminderListCell.swift in Sources */,
 				F4712A8D26824EE300D6730B /* AppDelegate.swift in Sources */,
 				F4712A8F26824EE300D6730B /* SceneDelegate.swift in Sources */,
 				F4712AA3268250B400D6730B /* Reminder.swift in Sources */,
