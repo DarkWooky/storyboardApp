@@ -43,6 +43,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F42A3C5026B9F3CF005DFBD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4712AA2268250B400D6730B /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F42A3C5126B9F3DB005DFBD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4712AA42682A9E200D6730B /* ReminderListCell.swift */,
+				F4712A9026824EE300D6730B /* ReminderListViewController.swift */,
+				F4712AA62683869600D6730B /* ReminderDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F4712A8026824EE300D6730B = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +82,8 @@
 			children = (
 				F4712A8C26824EE300D6730B /* AppDelegate.swift */,
 				F4712A8E26824EE300D6730B /* SceneDelegate.swift */,
-				F4712AA2268250B400D6730B /* Reminder.swift */,
-				F4712AA42682A9E200D6730B /* ReminderListCell.swift */,
-				F4712A9026824EE300D6730B /* ReminderListViewController.swift */,
-				F4712AA62683869600D6730B /* ReminderDetailViewController.swift */,
+				F42A3C5026B9F3CF005DFBD9 /* Models */,
+				F42A3C5126B9F3DB005DFBD9 /* Controllers */,
 				F4712A9226824EE300D6730B /* Main.storyboard */,
 				F4712A9526824EE500D6730B /* Assets.xcassets */,
 				F4712A9726824EE500D6730B /* LaunchScreen.storyboard */,
